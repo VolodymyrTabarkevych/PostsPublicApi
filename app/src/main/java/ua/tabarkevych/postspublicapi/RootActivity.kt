@@ -2,8 +2,10 @@ package ua.tabarkevych.postspublicapi
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import dagger.hilt.android.AndroidEntryPoint
 import ua.tabarkevych.postspublicapi.databinding.ActivityRootBinding
 
+@AndroidEntryPoint
 class RootActivity : AppCompatActivity() {
     private lateinit var binding: ActivityRootBinding
 
