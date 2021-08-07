@@ -1,0 +1,3 @@
+package ua.tabarkevych.postspublicapi
+
+class PostsPublicApiApp
