@@ -1,4 +1,4 @@
-package ua.tabarkevych.publicapiapp.ui.posts
+package ua.tabarkevych.postspublicapi.ui.posts
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -8,8 +8,8 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
-import ua.tabarkevych.publicapiapp.model.Post
-import ua.tabarkevych.publicapiapp.repository.PostsRepository
+import ua.tabarkevych.postspublicapi.model.Post
+import ua.tabarkevych.postspublicapi.repository.PostsRepository
 import javax.inject.Inject
 
 @HiltViewModel

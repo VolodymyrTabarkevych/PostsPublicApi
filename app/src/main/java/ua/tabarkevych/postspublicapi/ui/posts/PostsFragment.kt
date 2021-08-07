@@ -16,9 +16,7 @@ import ua.tabarkevych.postspublicapi.model.Post
 import ua.tabarkevych.postspublicapi.ui.base.BaseFragment
 import ua.tabarkevych.postspublicapi.ui.posts.adapter.PostItemDecorator
 import ua.tabarkevych.postspublicapi.ui.posts.adapter.PostsAdapter
-import ua.tabarkevych.publicapiapp.ui.posts.DataState
-import ua.tabarkevych.publicapiapp.ui.posts.PostsViewModel
-import ua.tabarkevych.publicapiapp.ui.posts.adapter.PostsFooterAdapter
+import ua.tabarkevych.postspublicapi.ui.posts.adapter.PostsFooterAdapter
 
 @AndroidEntryPoint
 class PostsFragment : BaseFragment<FragmentPostsBinding>() {

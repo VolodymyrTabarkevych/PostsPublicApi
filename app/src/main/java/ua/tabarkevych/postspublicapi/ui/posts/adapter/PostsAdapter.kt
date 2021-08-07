@@ -3,9 +3,8 @@ package ua.tabarkevych.postspublicapi.ui.posts.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import ua.tabarkevych.postspublicapi.databinding.ItemPostBinding
 import ua.tabarkevych.postspublicapi.model.Post
-import ua.tabarkevych.publicapiapp.databinding.ItemPostBinding
-import ua.tabarkevych.publicapiapp.model.Post
 
 class PostsAdapter(
     private val posts: MutableList<Post>

@@ -10,7 +10,7 @@ import ua.tabarkevych.postspublicapi.room.post.PostDatabase
 import ua.tabarkevych.postspublicapi.room.post.PostDatabaseEntity
 import ua.tabarkevych.postspublicapi.room.post.PostDatabaseMapper
 import ua.tabarkevych.postspublicapi.util.Constants
-import ua.tabarkevych.publicapiapp.ui.posts.DataState
+import ua.tabarkevych.postspublicapi.ui.posts.DataState
 import java.lang.Exception
 import java.net.UnknownHostException
 

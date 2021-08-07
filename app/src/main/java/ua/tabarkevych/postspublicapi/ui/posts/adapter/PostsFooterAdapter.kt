@@ -1,10 +1,10 @@
-package ua.tabarkevych.publicapiapp.ui.posts.adapter
+package ua.tabarkevych.postspublicapi.ui.posts.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import ua.tabarkevych.publicapiapp.databinding.ItemPostsFooterBinding
+import ua.tabarkevych.postspublicapi.databinding.ItemPostsFooterBinding
 
 class PostsFooterAdapter : RecyclerView.Adapter<PostsFooterAdapter.PostsFooterViewHolder>() {
     private var showLoading = false
