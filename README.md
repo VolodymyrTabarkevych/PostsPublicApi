@@ -9,4 +9,4 @@ This is sample app with base implementation of:
 
 App functionality
 
-App loads data with pagination from https://gorest.co.in/public-api/posts, save to local database and show it via RecyclerView. 
+App loads data with pagination from https://gorest.co.in/public-api/posts, saves to local database and shows it via RecyclerView. 
