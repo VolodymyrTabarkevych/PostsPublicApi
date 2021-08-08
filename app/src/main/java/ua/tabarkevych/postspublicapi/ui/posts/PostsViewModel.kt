@@ -45,7 +45,6 @@ sealed class DataState<out R> {
     data class PostsLoaded<out T>(val data: T) : DataState<T>()
     data class IsLastPage(val isLastPage: Boolean) : DataState<Nothing>()
     object IncreasePage : DataState<Nothing>()
-    object LoadError : DataState<Nothing>()
     object Loading : DataState<Nothing>()
     object NextPostsLoading : DataState<Nothing>()
 }

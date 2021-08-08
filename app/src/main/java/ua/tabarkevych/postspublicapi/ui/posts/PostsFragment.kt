@@ -52,10 +52,6 @@ class PostsFragment : BaseFragment<FragmentPostsBinding>() {
                 is DataState.IsLastPage -> {
                     isLastPage = dataState.isLastPage
                 }
-                is DataState.LoadError -> {
-                    showLoading(false)
-                    showNextPostsLoading(false)
-                }
                 is DataState.Loading -> {
                     showLoading(true)
                 }
@@ -113,12 +109,6 @@ class PostsFragment : BaseFragment<FragmentPostsBinding>() {
             val footerAdapter = PostsFooterAdapter()
             concatAdapter.addAdapter(footerAdapter)
             footerAdapter.showLoading(show)
-        }
-    }
-
-    private fun showError(message: Int) {
-        if (message != 0) {
-            Toast.makeText(context, getString(message), Toast.LENGTH_LONG).show()
         }
     }
 }

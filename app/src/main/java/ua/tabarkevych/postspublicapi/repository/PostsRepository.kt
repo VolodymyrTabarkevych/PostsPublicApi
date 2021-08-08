@@ -31,10 +31,7 @@ class PostsRepository(
             posts.forEach { post ->
                 postDatabase.postDao().insert(
                     databaseMapper.mapFromDomainModel(post)
-                        .also {
-                            it.page = networkPosts.meta.pagination.page
-                            println("${it.id} --- ${it.page}")
-                        })
+                        .also { it.page = networkPosts.meta.pagination.page })
             }
 
             //If data was received from server and saved to database -> increase page count
